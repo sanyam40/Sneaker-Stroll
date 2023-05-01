@@ -9,5 +9,7 @@ public interface userService {
 	public int signup(User user);
 	
 	public List<User> login(String email,String password);
+	
+	public List<User> cart(List<String>list);
 
 }

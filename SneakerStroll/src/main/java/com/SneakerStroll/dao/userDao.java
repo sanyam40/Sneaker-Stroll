@@ -9,5 +9,7 @@ public interface userDao {
 	public int user_signup(User user);
 	
 	public List<User> userlogin(String email,String password);
+	
+	public List<User> cart(List<String>email);
 
 }

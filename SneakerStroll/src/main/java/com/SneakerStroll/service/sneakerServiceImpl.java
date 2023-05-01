@@ -32,5 +32,18 @@ public class sneakerServiceImpl implements sneakerService {
 		return list;
 		
 	}
+	
+	/*public List<Sneaker> getcart(){
+		
+		String queryString="select * from cart";
+		
+		
+		return list2;
+	}*/
+	
+	public int savetocart(String id) {
+		int r=sneakerDao.savetocart(id);
+		return r;	
+	}
 
 }

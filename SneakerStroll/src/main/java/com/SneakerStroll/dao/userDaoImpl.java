@@ -34,6 +34,18 @@ public class userDaoImpl implements userDao {
 		list=jdbcTemplate.query(query, new Object[] {email,password},new BeanPropertyRowMapper<User>(User.class));
 		return list;			
 	}
+	
+	@SuppressWarnings("deprecation")
+	public List<User> cart(List<String>list){
+		List<User>list2=new ArrayList<User>();
+		
+		for(String email:list) {
+			String queryString="select * from User where email=?";
+			User user=(User) jdbcTemplate.query(queryString,new Object[] {email},new BeanPropertyRowMapper<User>(User.class));
+			list2.add(user);
+		}
+		return list2;
+	}
 
 	
 

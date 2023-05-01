@@ -1,3 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+/* -----------------------------------
+    1 - General Styles
+------------------------------------*/
+.form-holder {
+    padding: 35px 30px;
+    border-radius: 10px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 6px 15px rgb(0 0 0 / 16%);
+    box-shadow: 0 6px 15px rgb(0 0 0 / 16%);
+    max-width: 470px;
+    width: 100%;
+    color: #000;
+}
+
+.form-holder h3 {
+    font-size: 24px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.form-holder p {
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.form-holder input {
+    width: 100%;
+    padding: 15px 20px;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    font-size: 15px;
+    font-weight: 300;
+    color: #8D8D8D;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    margin-bottom: 14px;
+    border: 1px solid #f5f5f5;
+}
+
+.form-holder input:focus {
+    box-shadow: none;
+    border: 1px solid #eee;
+}
+
+.form-holder .form-button .ibtn {
+    border-radius: 6px;
+    border: 0;
+    padding: 12px px;
+    background-color: #29A4FF;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    outline: none;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    -webkit-box-shadow: 0 0 0 rgb(0 0 0 / 16%);
+    box-shadow: 0 0 0 rgb(0 0 0 / 16%);
+    text-align: center;
+}
+
+.form-holder .form-button .ibtn:hover,
+.form-holder .form-button .ibtn:focus {
+    -webkit-box-shadow: 0 5px 6px rgb(0 0 0 / 16%);
+    box-shadow: 0 5px 6px rgb(0 0 0 / 16%);
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -7,38 +82,6 @@
     list-style: none;
     text-decoration: none;
 }
-
-.buttons {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .action_btn {
-    margin: 10px;
-  }
-  
-  .action_btn button {
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .action_btn .submit {
-    background-color: #000000;
-  }
-  
-  .action_btn .cancel {
-    background-color: #000000;
-  }
-  
-  .action_btn button:hover {
-    opacity: 0.8;
-  }
-  
 header{
     position: fixed;
     color:#edfff1;
@@ -190,7 +233,7 @@ header.sticky{
     transition: all .40s;
 }
 .row img:hover{
-    transform: scale(0.8);
+    transform: scale(1.5);
 }
 .product-text h5{
     position: absolute;
@@ -264,11 +307,10 @@ header.sticky{
 
 .desc{
     color: #000;
-    font-size: 12px;
-    font-weight: 50;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 25px;
     margin-bottom: 10px;
-    margin:20px;
 }
 
 
@@ -336,6 +378,14 @@ header.sticky{
     margin-bottom: 10px;
 }
 
+login-box{
+    width: 360px;
+    height: 280px;
+    margin: auto;
+    border-radius: 3px;
+    background: rgba(255,255,255,0.25);
+  }
+
 .contact-info p{
     color: #565656;
     font-size: 14px;
@@ -392,6 +442,8 @@ select {
     border-color: #666;
     box-shadow: 0 0 5px #666;
   }
+
+
   
 
 

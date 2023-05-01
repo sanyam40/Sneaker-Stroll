@@ -32,5 +32,10 @@ public class userServiceImpl implements userService {
 		return list;
 		
 	}
+	
+	public List<User> cart(List<String>list){
+		List<User>list2=userDao.cart(list);
+		return list2;
+	}
 
 }

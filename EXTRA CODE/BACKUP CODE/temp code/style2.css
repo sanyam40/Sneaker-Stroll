@@ -7,38 +7,6 @@
     list-style: none;
     text-decoration: none;
 }
-
-.buttons {
-    display: flex;
-    justify-content: center;
-  }
-  
-  .action_btn {
-    margin: 10px;
-  }
-  
-  .action_btn button {
-    font-size: 16px;
-    font-weight: bold;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .action_btn .submit {
-    background-color: #000000;
-  }
-  
-  .action_btn .cancel {
-    background-color: #000000;
-  }
-  
-  .action_btn button:hover {
-    opacity: 0.8;
-  }
-  
 header{
     position: fixed;
     color:#edfff1;
@@ -190,7 +158,7 @@ header.sticky{
     transition: all .40s;
 }
 .row img:hover{
-    transform: scale(0.8);
+    transform: scale(1.5);
 }
 .product-text h5{
     position: absolute;
@@ -264,11 +232,10 @@ header.sticky{
 
 .desc{
     color: #000;
-    font-size: 12px;
-    font-weight: 50;
+    font-size: 16px;
+    font-weight: 400;
     line-height: 25px;
     margin-bottom: 10px;
-    margin:20px;
 }
 
 

@@ -39,7 +39,7 @@
         <div class="nav-icon">
             <a href="#"><i class='bx bx-search'></i></a>
             <a href="#"><i class='bx bx-user' ></i></a>
-            <a href="#"><i class='bx bx-cart' ></i></a>
+            <a href="display-cart"><i class='bx bx-cart' ></i></a>
 
             <div class="bx bx-menu" id="menu-icon"></div>
         </div>
@@ -81,16 +81,15 @@
                 </select>
                 <br>
                 <br>
-                <hr>
-                <div class="desc">
-                <p>With the introduction of the Jordan 4 Retro SB Pine Green, Nike SB's partnership with Jordan helps develop the perfect sneaker for the skatepark and the basketball court as well. Nike SB and Jordan teamed together once more to make the AJ4 design more skateable and trick-friendly.
-
-                    White leather and neutral grey suede were utilised for the upper and mudguard of the Jordan 4 Retro SB Pine Green. The red air unit stands out against the white and pine green midsole of the limited edition shoes. A gum outsole was employed by Nike to assist skateboarders have more traction.
-                    
-                    Color Shown: SAIL/PINE GREEN/NEUTRAL GREY/WHITE</p>
-                <hr>
+                <div class="buttons">
+                <div class="action_btn">
+                
+                <a href="add-to-cart?s_id=${item.s_id}"><button name="submit" class="action_btn cancel" type="submit" value="Add To Cart" onclick="myFunction2()">Add To Cart</button></a>
+                <p id="saved"></p>
                 </div>
-             
+                
+                    <br>
+                    <br>
             </div>
         </div>
         </c:forEach>
@@ -145,12 +144,6 @@
     <div class="end-text">
         <p>Copyright © @2022. All Rights Reserved.Designd By Sneakerstroll.</p>
     </div>
-
-   
-
-
-
-
     <script src="java.js"></script>
     
 </body>
